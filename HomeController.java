@@ -12,6 +12,8 @@ public class HomeController {
 		System.out.println("HomeController.home()");
 		return "home";
 	}
-	
+	public void printUser(User user){
+	   System.out.print();
+	}
 	
 }
